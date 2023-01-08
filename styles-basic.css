@@ -1,0 +1,40 @@
+/* desktop first */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b2d6ff;
+}
+
+/* @media (max-width: 600px) and (min-width: 400px) {
+  body {
+    background-color: #75d894;
+  }
+
+  div {
+    font-size: 16px;
+  }
+} */
+
+/* Tablet Styles */
+@media (min-width: 451px) and (max-width: 650px) {
+  body {
+    background-color: #f5cf8e;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 450px) {
+  body {
+    background-color: #f09a9d;
+  }
+}
+
+/* @media screen and (min-width: 651px) {
+  body {
+    background-color: #b2d6ff;
+  }
+} */
